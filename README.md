@@ -2,7 +2,7 @@
 
 ### App tic tac toe allows play the tic tac toe game and see the history of the moves.
 
-### Written in React.js 
+### Written in React.js
 
 ## Getting Started with Create React App
 
@@ -10,7 +10,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Available Scripts
 
+To setup project download or clone the repository.
+
 In the project directory, you can run:
+
+#### `npm install`
+
+To start server:
 
 #### `npm start`
 
@@ -29,4 +35,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
