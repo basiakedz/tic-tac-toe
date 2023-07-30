@@ -2,6 +2,10 @@
 
 ### App tic tac toe allows play the tic tac toe game and see the history of the moves.
 
+### Link
+
+- Live preview: [https://tic-tac-toe-basiakedz.netlify.app](https://tic-tac-toe-basiakedz.netlify.app)
+
 ### Written in React.js
 
 ## Getting Started with Create React App
