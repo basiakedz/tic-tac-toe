@@ -8,6 +8,8 @@
 
 ### Written in React.js
 
+![Screenshot of App](./public/app-screenshot.png)
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
