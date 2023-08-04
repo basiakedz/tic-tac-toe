@@ -1,6 +1,6 @@
 # Tic-Tac-Toe app - Play and have fun! <img src="./public/tic-tac-toe2.png" alt="Tic-Tac-Toe_Logo" width="25" height="25">
 
-### App tic tac toe allows play the tic tac toe game and see the history of the moves.
+### App Tic Tac Toe allows to play the tic tac toe game and see the history of the moves.
 
 ### Link
 
