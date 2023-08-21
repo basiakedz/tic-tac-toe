@@ -133,9 +133,11 @@ function Board({ xIsNext, squares, onPlay, setHistory, resetMoves }) {
         />
       </div>
       {(gameState === "winner" || gameState === "draw") && (
-        <button className="button-try-again" onClick={newPlay}>
-          Try again!
-        </button>
+        <div className="button-try-again-container">
+          <button className="button-try-again" onClick={newPlay}>
+            Try again!
+          </button>
+        </div>
       )}
     </article>
   );
@@ -199,7 +201,7 @@ export default function Game() {
         />
       </div>
       <div className="game-info">
-        <ol>{moves}</ol>
+        <ol className="moves-list">{moves}</ol>
       </div>
     </div>
   );

@@ -1,5 +1,8 @@
+@import "normalize.css";
+
 body {
   margin: 0px;
+  background: grey;
 }
 
 .game {
@@ -7,7 +10,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: grey;
 }
 
 .board-row {
@@ -46,16 +48,20 @@ body {
   border-bottom: 0;
 }
 
+.button-try-again-container {
+  display: flex;
+  justify-content: end;
+  max-width: 450px;
+}
+
 .button-try-again {
   background: transparent;
-  width: 130px;
-  height: 55px;
+  padding: 3px 14px;
   font-size: 35px;
   color: white;
   font-family: "Chalk_board";
   border: 3px solid white;
   border-radius: 5px;
-  margin-left: 320px;
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -104,9 +110,73 @@ body {
   padding-left: 30px;
 }
 
+.moves-list li {
+  font-size: 20px;
+  font-family: "Chalk_board";
+  color: black;
+  font-weight: 500;
+}
+
 .game-info button {
   background: transparent;
-  font-family: "Chalk_board";
-  font-size: 20px;
   border: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+@media (max-width: 475px) {
+  .game {
+    display: block;
+  }
+
+  .square {
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    padding: 0;
+  }
+
+  .button-try-again-container {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .button-try-again {
+    margin-bottom: 0;
+    font-size: 25px;
+  }
+
+  .game-info {
+    font-family: "Chalk_board";
+    font-size: 20px;
+    padding-left: 30px;
+    font-weight: 500;
+  }
+
+  .game-info button {
+    padding-left: 6px;
+  }
+
+  .moves-list {
+    margin-left: 0;
+  }
+
+  .moves-list li {
+    margin-bottom: 5px;
+    font-size: 25px;
+  }
+
+  .status {
+    font-size: 50px;
+  }
+
+  .image-arrow {
+    width: 90px;
+    height: 63px;
+  }
+
+  .title {
+    font-size: 80px;
+  }
 }
